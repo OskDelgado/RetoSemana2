@@ -3,8 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+        div {
+            width: 350px; 
+            border: 2px;
+            padding: 10px;
+            background-color: aqua;
+            }
+    </style>
 </head>
 <body>
-    
+    <div>
+
+    <h3>Contact Form</h3>
+    <form action="#">
+        <p>
+            Nombre <br>
+            <input type="text" minlength="6" placeholder="John">
+        </p>
+        
+        <p>
+        Apellido <br>
+        <input type="text" minlength="6" placeholder="Doe">
+        </p>
+        <p>
+        Email <br>
+        <input type="email" placeholder="you@domain.com">
+        </p>
+        <p>
+        Message
+        <textarea rows="4" cols="40" minlength="20" maxlength="140">Enter your message here...</textarea>
+        </p>
+        <input type="submit" value="Submit">
+        
+    </form>
+    </div>  
+
 </body>
 </html>
